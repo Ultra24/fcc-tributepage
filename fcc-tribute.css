@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Chakra+Petch&family=Lora&family=Space+Grotesk:wght@500&family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
 
 header {
  max-width: none;
@@ -68,7 +68,11 @@ li:before {
   counter-increment: elementcounter;
   font-weight: bold;
 }
+
+footer {
+ margin-top: 65px;
+}
 h5 {
-  font-size: 14px;
-  padding-top: 2.5;
+  font-size: 16px;
+  font-family: 'Source Serif Pro', serif;
 }
