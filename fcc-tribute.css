@@ -27,7 +27,7 @@ figcaption {
 
 #image {
   height: auto;
-  width: 10%;
+  width: auto;
   display: block;
   margin: auto;
   max-width: 100%;
