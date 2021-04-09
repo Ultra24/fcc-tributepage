@@ -76,3 +76,16 @@ h5 {
   font-size: 16px;
   font-family: 'Source Serif Pro', serif;
 }
+
+a:link {
+  text-decoration: none;
+  color: rgb(73, 86, 207);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(64, 150, 150);
+}
