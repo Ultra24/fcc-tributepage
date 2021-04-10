@@ -6,7 +6,7 @@ header {
   text-align: center;
 }
 
-.darkmode-button {
+button {
   font-family: "Space Grotesk", sans-serif;
   height: auto;
   width: auto;
@@ -23,7 +23,7 @@ header {
   background-color: rgb(37, 37, 37);
   color: rgb(216, 214, 214);
 }
-h1 {
+ h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 80px;  
   max-width: none;
@@ -80,17 +80,15 @@ ul {
   font-size: 19px;
 }
 
-li:before {
-  font-weight: bold;
-}
-
-footer {
- margin-top: 65px;
+	footer {
+    margin-top: 65px;
 }
 
 h5 {
   font-size: 16px;
-  font-family: 'Source Serif Pro', serif;
+  font-family:'Source Serif Pro', serif;
+  padding-top: 2.5;
+
 }
 
 a:link {
