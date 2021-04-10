@@ -81,14 +81,13 @@ ul {
 }
 
 li:before {
-  content: "1912:";
-  counter-increment: elementcounter;
   font-weight: bold;
 }
 
 footer {
  margin-top: 65px;
 }
+
 h5 {
   font-size: 16px;
   font-family: 'Source Serif Pro', serif;
