@@ -75,7 +75,6 @@ ul {
   margin-left: 0;
   padding-left: 0;
     list-style-type: none;
-  counter-reset: 2;
   font-family: "Lora", serif;
   font-size: 19px;
 }
