@@ -6,6 +6,23 @@ header {
   text-align: center;
 }
 
+button {
+  font-family: "Space Grotesk", sans-serif;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.darkmode-button:hover {
+ border-color: dodgerblue;
+}
+
+.dark-mode {
+  background-color: rgb(37, 37, 37);
+  color: rgb(216, 214, 214);
+}
 h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 80px;  
