@@ -24,7 +24,7 @@ button {
  cursor: pointer;
 }
 
-.code-button {
+.code-button:hover {
     border-color: rgb(223, 66, 139); 
 }
 
