@@ -64,6 +64,12 @@ figcaption {
   max-height: none;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+#image:hover {
+  box-shadow: 10px 8px 16px rgba(0,0,0,0.4);
 }
 
 p {
@@ -99,11 +105,11 @@ footer {
  hr {
    width: 25vw;
 }
+
 h5 {
   font-size: 16px;
   font-family:'Source Serif Pro', serif;
   padding-top: 2.5;
-
 }
 
 a:link {
