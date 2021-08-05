@@ -1,35 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Chakra+Petch&family=Lora&family=Space+Grotesk:wght@500&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 header {
  max-width: none;
   text-align: center;
 }
-
 .source-code {
   font-size: 16px;
- font-family: 'Source Serif Pro', serif;
- font-weight: bold;
- text-align: center;
- vertical-align: middle; 
+  font-family:'Source Serif Pro', serif;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
 }
-
 button {
   font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
   height: auto;
   width: auto;
   padding: 5px;
   border-radius: 5px;
   background-color: white;
- cursor: pointer;
+  cursor: pointer;
 }
 
 .code-button:hover {
-    border-color: rgb(223, 66, 139); 
-}
+  border-color: rgb(223, 66, 139);
+  box-shadow: 5px 4px 8px 0 rgba(0,0,0,0.3);
+  text-decoration-color: white; 
+  }
 
 .darkmode-button:hover {
  border-color: dodgerblue;
+ box-shadow: 5px 4px 8px 0 rgba(0,0,0,0.3);
 }
 
 .dark-mode {
@@ -40,6 +47,7 @@ button {
   font-family: "Space Grotesk", sans-serif;
   font-size: 80px;  
   max-width: none;
+
 }
 
 h4 {
@@ -57,7 +65,7 @@ figcaption {
 
 #image {
   height: auto;
-  width: auto;
+  width: 250px;
   display: block;
   margin: auto;
   max-width: 100%;
@@ -65,12 +73,28 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 7px 4px 8px 0 rgba(64,150,150,0.3);
-  transition: 0.3s;
+  transition: 0.8s;
   border-radius: 8px 8px 8px 8px;
+  animation: fadeIn 1.4s;
 }
 
-#image:hover {
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+  #image:hover {
   box-shadow: 12px 8px 16px rgba(64,150,150,0.4);
+}
+
+.circa {
+  height: auto;
+  width: flex;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 16px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
 }
 
 p {
@@ -95,22 +119,23 @@ ul {
   margin-left: 0;
   padding-left: 0;
     list-style-type: none;
+  counter-reset: 2;
   font-family: "Lora", serif;
   font-size: 19px;
 }
 
-footer {
+	footer {
     margin-top: 65px;
 }
-
- hr {
-   width: 25vw;
+ 
+hr {
+  width: 25vw;
 }
-
 h5 {
   font-size: 16px;
   font-family:'Source Serif Pro', serif;
   padding-top: 2.5;
+
 }
 
 a:link {
@@ -118,10 +143,11 @@ a:link {
   color: rgb(73, 86, 207);
 }
 
-a:hover {
+#tribute-link:hover {
   text-decoration: underline;
 }
 
 a:visited {
   color: rgb(64, 150, 150);
 }
+
